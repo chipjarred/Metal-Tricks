@@ -38,6 +38,7 @@
 		7DDAE051239A6CD3007CD630 /* Metal-TricksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Metal-TricksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DDAE055239A6CD3007CD630 /* Metal_TricksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal_TricksTests.swift; sourceTree = "<group>"; };
 		7DDAE057239A6CD3007CD630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DDAE060239A6D0E007CD630 /* Metal-Tricks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Metal-Tricks.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +80,7 @@
 		7DDAE03D239A6CD0007CD630 /* Metal-Tricks */ = {
 			isa = PBXGroup;
 			children = (
-				7DDAE03E239A6CD0007CD630 /* AppDelegate.swift */,
-				7DDAE040239A6CD0007CD630 /* SceneDelegate.swift */,
-				7DDAE042239A6CD0007CD630 /* ContentView.swift */,
-				7DDAE044239A6CD2007CD630 /* Assets.xcassets */,
-				7DDAE049239A6CD2007CD630 /* LaunchScreen.storyboard */,
-				7DDAE04C239A6CD2007CD630 /* Info.plist */,
-				7DDAE046239A6CD2007CD630 /* Preview Content */,
+				7DDAE061239A6D88007CD630 /* SwiftUI */,
 			);
 			path = "Metal-Tricks";
 			sourceTree = "<group>";
@@ -105,6 +100,21 @@
 				7DDAE057239A6CD3007CD630 /* Info.plist */,
 			);
 			path = "Metal-TricksTests";
+			sourceTree = "<group>";
+		};
+		7DDAE061239A6D88007CD630 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				7DDAE046239A6CD2007CD630 /* Preview Content */,
+				7DDAE060239A6D0E007CD630 /* Metal-Tricks.entitlements */,
+				7DDAE03E239A6CD0007CD630 /* AppDelegate.swift */,
+				7DDAE040239A6CD0007CD630 /* SceneDelegate.swift */,
+				7DDAE042239A6CD0007CD630 /* ContentView.swift */,
+				7DDAE044239A6CD2007CD630 /* Assets.xcassets */,
+				7DDAE049239A6CD2007CD630 /* LaunchScreen.storyboard */,
+				7DDAE04C239A6CD2007CD630 /* Info.plist */,
+			);
+			path = SwiftUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,19 +372,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Metal-Tricks/SwiftUI/Metal-Tricks.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Metal-Tricks/Preview Content\"";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Metal-Tricks/SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = B6QFK6MJHL;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Metal-Tricks/Info.plist";
+				INFOPLIST_FILE = "Metal-Tricks/SwiftUI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "SkyNet.Metal-Tricks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -382,19 +395,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Metal-Tricks/SwiftUI/Metal-Tricks.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Metal-Tricks/Preview Content\"";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"Metal-Tricks/SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = B6QFK6MJHL;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Metal-Tricks/Info.plist";
+				INFOPLIST_FILE = "Metal-Tricks/SwiftUI/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "SkyNet.Metal-Tricks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
