@@ -45,6 +45,7 @@
 		7DDAE060239A6D0E007CD630 /* Metal-Tricks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Metal-Tricks.entitlements"; sourceTree = "<group>"; };
 		7DDAE063239A6F5D007CD630 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		7DDAE066239A7202007CD630 /* MetalGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalGameView.swift; sourceTree = "<group>"; };
+		7DDAE069239A7531007CD630 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +69,7 @@
 		7DDAE032239A6CCF007CD630 = {
 			isa = PBXGroup;
 			children = (
+				7DDAE069239A7531007CD630 /* README.md */,
 				7DDAE03D239A6CD0007CD630 /* Metal-Tricks */,
 				7DDAE054239A6CD3007CD630 /* Metal-TricksTests */,
 				7DDAE03C239A6CD0007CD630 /* Products */,
