@@ -14,6 +14,10 @@
 		7DDAE048239A6CD2007CD630 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DDAE047239A6CD2007CD630 /* Preview Assets.xcassets */; };
 		7DDAE04B239A6CD2007CD630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DDAE049239A6CD2007CD630 /* LaunchScreen.storyboard */; };
 		7DDAE056239A6CD3007CD630 /* Metal_TricksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDAE055239A6CD3007CD630 /* Metal_TricksTests.swift */; };
+		7DDAE064239A6F5D007CD630 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDAE063239A6F5D007CD630 /* GameView.swift */; };
+		7DDAE065239A6F5D007CD630 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDAE063239A6F5D007CD630 /* GameView.swift */; };
+		7DDAE067239A7202007CD630 /* MetalGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDAE066239A7202007CD630 /* MetalGameView.swift */; };
+		7DDAE068239A7202007CD630 /* MetalGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DDAE066239A7202007CD630 /* MetalGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +43,8 @@
 		7DDAE055239A6CD3007CD630 /* Metal_TricksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metal_TricksTests.swift; sourceTree = "<group>"; };
 		7DDAE057239A6CD3007CD630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DDAE060239A6D0E007CD630 /* Metal-Tricks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Metal-Tricks.entitlements"; sourceTree = "<group>"; };
+		7DDAE063239A6F5D007CD630 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		7DDAE066239A7202007CD630 /* MetalGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalGameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				7DDAE061239A6D88007CD630 /* SwiftUI */,
+				7DDAE063239A6F5D007CD630 /* GameView.swift */,
 			);
 			path = "Metal-Tricks";
 			sourceTree = "<group>";
@@ -113,6 +120,7 @@
 				7DDAE044239A6CD2007CD630 /* Assets.xcassets */,
 				7DDAE049239A6CD2007CD630 /* LaunchScreen.storyboard */,
 				7DDAE04C239A6CD2007CD630 /* Info.plist */,
+				7DDAE066239A7202007CD630 /* MetalGameView.swift */,
 			);
 			path = SwiftUI;
 			sourceTree = "<group>";
@@ -220,6 +228,8 @@
 			files = (
 				7DDAE03F239A6CD0007CD630 /* AppDelegate.swift in Sources */,
 				7DDAE041239A6CD0007CD630 /* SceneDelegate.swift in Sources */,
+				7DDAE067239A7202007CD630 /* MetalGameView.swift in Sources */,
+				7DDAE064239A6F5D007CD630 /* GameView.swift in Sources */,
 				7DDAE043239A6CD0007CD630 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +238,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DDAE065239A6F5D007CD630 /* GameView.swift in Sources */,
+				7DDAE068239A7202007CD630 /* MetalGameView.swift in Sources */,
 				7DDAE056239A6CD3007CD630 /* Metal_TricksTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
